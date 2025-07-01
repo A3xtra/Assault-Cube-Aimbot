@@ -107,6 +107,6 @@ uintptr_t GetModuleBaseAddress(uintptr_t uint_PID, const wchar_t* modName)
 
 	// close handle 
 	CloseHandle(hSnap);
-	return 0;
+	return modBaseAddr;
 }
 
